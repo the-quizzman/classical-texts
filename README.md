@@ -80,11 +80,18 @@ Local path: `/Users/gengyang/classical-texts/books/<id>/`
 
 - [Đạo Đức Kinh（道德經）](https://github.com/the-quizzman/daodejing) — repo riêng, full text từ Wikisource + Legge
 
+## Wiki handover
+
+Nội dung đã sẵn trên GitHub nhưng **chưa live trên wiki**.  
+→ Wiki Dev xem [`docs/HANDOVER-WIKI-DEV.md`](docs/HANDOVER-WIKI-DEV.md)  
+→ Registry: [`sources/wiki-registry.json`](sources/wiki-registry.json)
+
 ## Scripts
 
 ```bash
 python3 scripts/bootstrap.py          # scaffold local
 python3 scripts/push_github.py        # create+push GitHub
+python3 scripts/import_pd_text.py     # import Hán văn PD
 ```
 
 ## Import status
