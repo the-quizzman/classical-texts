@@ -1,0 +1,15 @@
+.DS_Store
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+.cursor/
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+build/
+.cache/
+*.log

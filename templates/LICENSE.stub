@@ -1,0 +1,33 @@
+# Licenses
+
+This repository aggregates public-domain and openly licensed texts.
+
+## Original Chinese text (Hán văn)
+
+Public domain (PD-old). Author traditionally attributed to Laozi; work published millennia ago.
+
+## Vietnamese Wikisource layers
+(Hán-Việt romanization + Vietnamese translation on https://vi.wikisource.org/wiki/Đạo_Đức_kinh)
+
+- Original: PD-old
+- Translation / editorial layer: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+  https://creativecommons.org/licenses/by-sa/4.0/
+- Also dual-licensed as GFDL on the source page
+
+You must retain attribution and share derivatives of the Wikisource translation layer under CC BY-SA 4.0 (or compatible).
+
+## English translation (James Legge)
+
+Project Gutenberg eBook #216 — *The Tao Teh King, or the Tao and its Characteristics*
+https://www.gutenberg.org/ebooks/216
+
+Catalog status: Public domain in the USA.
+If you redistribute the Project Gutenberg packaging itself, follow the Project Gutenberg License:
+https://www.gutenberg.org/policy/license.html
+
+## Repo tooling / config
+
+Scripts, `wiki.yml`, and CI workflows in this repository are provided for Quizzman Wiki integration.
+Unless noted otherwise for a specific file, treat original tooling here as available for use with the content under the licenses above.
+
+See `sources/ATTRIBUTION.md` for crawl snapshots and source URLs.

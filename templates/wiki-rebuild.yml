@@ -1,0 +1,142 @@
+name: Wiki Rebuild
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "chapters/**"
+      - "book.yaml"
+  workflow_dispatch:
+    inputs:
+      full:
+        description: "Full rebuild (all chapters)"
+        type: boolean
+        default: false
+
+concurrency:
+  group: wiki-rebuild-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  rebuild:
+    name: Incremental wiki rebuild
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Validate Classical Text Spec v1
+        run: ./scripts/validate-books.sh
+
+      - name: Collect changed chapter files
+        id: changed
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" && "${{ inputs.full }}" == "true" ]]; then
+            mapfile -t files < <(find chapters -type f -name '*.md' | sort)
+            mode="full"
+          elif [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            mapfile -t files < <(find chapters -type f -name '*.md' | sort)
+            mode="manual"
+          else
+            before="${{ github.event.before }}"
+            after="${{ github.sha }}"
+            if [[ -z "$before" || "$before" == "0000000000000000000000000000000000000000" ]]; then
+              mapfile -t files < <(git ls-files 'chapters/**/*.md' 'book.yaml')
+            else
+              mapfile -t files < <(git diff --name-only --diff-filter=ACMR "$before" "$after" -- 'chapters/' 'book.yaml' || true)
+            fi
+            mode="incremental"
+          fi
+
+          filtered=()
+          for f in "${files[@]:-}"; do
+            [[ -n "${f:-}" ]] && filtered+=("$f")
+          done
+
+          if [[ ${#filtered[@]} -eq 0 ]]; then
+            echo "modified=[]" >> "$GITHUB_OUTPUT"
+            echo "count=0" >> "$GITHUB_OUTPUT"
+            echo "mode=$mode" >> "$GITHUB_OUTPUT"
+            echo "No content files changed."
+            exit 0
+          fi
+
+          json=$(printf '%s\n' "${filtered[@]}" | jq -R . | jq -s -c .)
+          echo "modified=$json" >> "$GITHUB_OUTPUT"
+          echo "count=${#filtered[@]}" >> "$GITHUB_OUTPUT"
+          echo "mode=$mode" >> "$GITHUB_OUTPUT"
+          echo "Changed files ($mode):"
+          printf '  - %s\n' "${filtered[@]}"
+
+      - name: Trigger Quizzman Wiki rebuild
+        if: steps.changed.outputs.count != '0'
+        env:
+          WIKI_REBUILD_URL: ${{ vars.WIKI_REBUILD_URL || 'https://wiki.quizzman.com/api/wiki/rebuild' }}
+          WIKI_REBUILD_TOKEN: ${{ secrets.WIKI_REBUILD_TOKEN }}
+          MODIFIED_JSON: ${{ steps.changed.outputs.modified }}
+          MODE: ${{ steps.changed.outputs.mode }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [[ -z "${WIKI_REBUILD_TOKEN:-}" ]]; then
+            echo "::warning::WIKI_REBUILD_TOKEN chưa được cấu hình. Bỏ qua gọi API."
+            jq -n \
+              --arg repo "${{ github.repository }}" \
+              --arg ref "${{ github.ref }}" \
+              --arg sha "${{ github.sha }}" \
+              --arg mode "$MODE" \
+              --argjson modified "$MODIFIED_JSON" \
+              '{
+                repository: $repo,
+                ref: $ref,
+                sha: $sha,
+                mode: $mode,
+                modified: $modified
+              }'
+            exit 0
+          fi
+
+          payload=$(jq -n \
+            --arg repo "${{ github.repository }}" \
+            --arg ref "${{ github.ref }}" \
+            --arg sha "${{ github.sha }}" \
+            --arg mode "$MODE" \
+            --argjson modified "$MODIFIED_JSON" \
+            '{
+              repository: $repo,
+              ref: $ref,
+              sha: $sha,
+              mode: $mode,
+              modified: $modified
+            }')
+
+          echo "POST $WIKI_REBUILD_URL"
+          echo "$payload" | jq .
+
+          http_code=$(curl -sS -o /tmp/wiki-rebuild-response.json -w "%{http_code}" \
+            -X POST "$WIKI_REBUILD_URL" \
+            -H "Authorization: Bearer ${WIKI_REBUILD_TOKEN}" \
+            -H "Content-Type: application/json" \
+            -H "X-GitHub-Delivery: ${{ github.run_id }}" \
+            -d "$payload")
+
+          echo "HTTP $http_code"
+          cat /tmp/wiki-rebuild-response.json || true
+          echo
+
+          if [[ "$http_code" -lt 200 || "$http_code" -ge 300 ]]; then
+            echo "::error::Wiki rebuild failed with HTTP $http_code"
+            exit 1
+          fi
+
+      - name: Skip notice
+        if: steps.changed.outputs.count == '0'
+        run: echo "Không có file chapters/ thay đổi — bỏ qua rebuild."

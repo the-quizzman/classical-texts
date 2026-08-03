@@ -1,0 +1,405 @@
+# Quizzman Classical Texts — catalog
+# Source notes: thebronzemirror.com has curated passages (CC BY-SA 4.0 EN)
+# Full Hán văn must come from PD/open sources (Wikisource, ctext, …).
+
+spec: classical-text/v1
+org: the-quizzman
+parent_url: https://wiki.quizzman.com
+bronzemirror:
+  site: https://thebronzemirror.com/
+  corpus: sources/bronzemirror-corpus.json
+  license: "Original translations CC BY-SA 4.0; original Chinese texts public domain."
+
+# Collections are index repos (no chapter files). Constituents are real book repos.
+collections:
+  - id: sishu
+    title: Tứ Thư
+    title_original: 四書
+    category: nho-gia
+    members: [daxue, zhongyong, lunyu, mengzi]
+  - id: wujing
+    title: Ngũ Kinh
+    title_original: 五經
+    category: nho-gia
+    members: [yijing, shangshu, shijing, liji, chunqiu]
+  - id: shisanjing
+    title: Thập Tam Kinh
+    title_original: 十三經
+    category: nho-gia
+    members:
+      - yijing
+      - shangshu
+      - shijing
+      - zhouli
+      - yili
+      - liji
+      - chunqiu
+      - gongyang
+      - guliang
+      - lunyu
+      - xiaojing
+      - erya
+      - mengzi
+
+books:
+  # —— Nho gia (constituents + extras) ——
+  - id: daxue
+    title: Đại Học
+    title_original: 大學
+    author: Truyền thống Nho gia
+    category: nho-gia
+    chapter_count: 11
+    book_path: /books/dai-hoc
+    bronzemirror_source_zh: null
+
+  - id: zhongyong
+    title: Trung Dung
+    title_original: 中庸
+    author: Truyền thống Nho gia
+    category: nho-gia
+    chapter_count: 33
+    book_path: /books/trung-dung
+
+  - id: lunyu
+    title: Luận Ngữ
+    title_original: 論語
+    author: Khổng Tử / môn đệ
+    category: nho-gia
+    chapter_count: 20
+    book_path: /books/luan-ngu
+    bronzemirror_source_zh: 《论语》
+    chapter_titles:
+      1: Học Nhi
+      2: Vi Chính
+      3: Bát Dật
+      4: Lý Nhân
+      5: Công Dã Trường
+      6: Ung Dã
+      7: Thuật Nhi
+      8: Thái Bá
+      9: Tử Hãn
+      10: Hương Đảng
+      11: Tiên Tiến
+      12: Nhan Uyên
+      13: Tử Lộ
+      14: Hiến Vấn
+      15: Vệ Linh Công
+      16: Quý Thị
+      17: Dương Hóa
+      18: Vi Tử
+      19: Tử Trương
+      20: Nghiêu Viết
+
+  - id: mengzi
+    title: Mạnh Tử
+    title_original: 孟子
+    author: Mạnh Tử
+    category: nho-gia
+    chapter_count: 14
+    book_path: /books/manh-tu
+    bronzemirror_source_zh: 《孟子》
+
+  - id: yijing
+    title: Chu Dịch
+    title_original: 周易
+    author: Truyền thống
+    category: nho-gia
+    chapter_count: 64
+    book_path: /books/chu-dich
+    bronzemirror_source_zh: 《周易》
+
+  - id: shangshu
+    title: Thượng Thư
+    title_original: 尚書
+    author: Truyền thống
+    category: nho-gia
+    chapter_count: 58
+    book_path: /books/thuong-thu
+
+  - id: liji
+    title: Lễ Ký
+    title_original: 禮記
+    author: Truyền thống
+    category: nho-gia
+    chapter_count: 49
+    book_path: /books/le-ky
+
+  - id: chunqiu
+    title: Xuân Thu
+    title_original: 春秋
+    author: Truyền thống
+    category: nho-gia
+    chapter_count: 12
+    book_path: /books/xuan-thu
+
+  - id: zhouli
+    title: Chu Lễ
+    title_original: 周禮
+    author: Truyền thống
+    category: nho-gia
+    chapter_count: 6
+    book_path: /books/chu-le
+
+  - id: yili
+    title: Nghi Lễ
+    title_original: 儀禮
+    author: Truyền thống
+    category: nho-gia
+    chapter_count: 17
+    book_path: /books/nghi-le
+
+  - id: gongyang
+    title: Công Dương Truyện
+    title_original: 公羊傳
+    author: Truyền thống
+    category: nho-gia
+    chapter_count: 12
+    book_path: /books/cong-duong-truyen
+
+  - id: guliang
+    title: Cốc Lương Truyện
+    title_original: 穀梁傳
+    author: Truyền thống
+    category: nho-gia
+    chapter_count: 12
+    book_path: /books/coc-luong-truyen
+
+  - id: xiaojing
+    title: Hiếu Kinh
+    title_original: 孝經
+    author: Truyền thống Nho gia
+    category: nho-gia
+    chapter_count: 18
+    book_path: /books/hieu-kinh
+
+  - id: erya
+    title: Nhĩ Nhã
+    title_original: 爾雅
+    author: Truyền thống
+    category: nho-gia
+    chapter_count: 19
+    book_path: /books/nhi-nha
+
+  # —— Đạo gia ——
+  - id: zhuangzi
+    title: Trang Tử
+    title_original: 莊子
+    author: Trang Chu
+    category: dao-gia
+    chapter_count: 33
+    book_path: /books/trang-tu
+    bronzemirror_source_zh: 《庄子》
+
+  - id: liezi
+    title: Liệt Tử
+    title_original: 列子
+    author: Liệt Ngự Khấu (truyền)
+    category: dao-gia
+    chapter_count: 8
+    book_path: /books/liet-tu
+
+  - id: wenzi
+    title: Văn Tử
+    title_original: 文子
+    author: Truyền Đạo gia
+    category: dao-gia
+    chapter_count: 12
+    book_path: /books/van-tu
+
+  - id: yinfujing
+    title: Hoàng Đế Âm Phù Kinh
+    title_original: 黃帝陰符經
+    author: Truyền Hoàng Đế
+    category: dao-gia
+    chapter_count: 3
+    book_path: /books/am-phu-kinh
+
+  # —— Pháp gia ——
+  - id: hanfeizi
+    title: Hàn Phi Tử
+    title_original: 韓非子
+    author: Hàn Phi
+    category: phap-gia
+    chapter_count: 55
+    book_path: /books/han-phi-tu
+
+  - id: shangjunshu
+    title: Thương Quân Thư
+    title_original: 商君書
+    author: Thương Ưởng (truyền)
+    category: phap-gia
+    chapter_count: 26
+    book_path: /books/thuong-quan-thu
+
+  - id: guanzi
+    title: Quản Tử
+    title_original: 管子
+    author: Quản Trọng (truyền)
+    category: phap-gia
+    chapter_count: 76
+    book_path: /books/quan-tu
+
+  # —— Mặc gia ——
+  - id: mozi
+    title: Mặc Tử
+    title_original: 墨子
+    author: Mặc Địch / môn đệ
+    category: mac-gia
+    chapter_count: 71
+    book_path: /books/mac-tu
+
+  # —— Binh pháp ——
+  - id: sunzi
+    title: Tôn Tử Binh Pháp
+    title_original: 孫子兵法
+    author: Tôn Vũ
+    category: binh-phap
+    chapter_count: 13
+    book_path: /books/ton-tu-binh-phap
+    bronzemirror_source_zh: 《孙子兵法》
+    chapter_titles:
+      1: Thủy Kế
+      2: Tác Chiến
+      3: Mưu Công
+      4: Quân Hình
+      5: Binh Thế
+      6: Hư Thực
+      7: Quân Tranh
+      8: Cửu Biến
+      9: Hành Quân
+      10: Địa Hình
+      11: Cửu Địa
+      12: Hỏa Công
+      13: Dụng Gian
+
+  - id: wuzi
+    title: Ngô Tử
+    title_original: 吳子
+    author: Ngô Khởi
+    category: binh-phap
+    chapter_count: 6
+    book_path: /books/ngo-tu
+
+  - id: liutao
+    title: Lục Thao
+    title_original: 六韜
+    author: Khương Thái Công (truyền)
+    category: binh-phap
+    chapter_count: 60
+    book_path: /books/luc-thao
+
+  - id: sanlue
+    title: Tam Lược
+    title_original: 三略
+    author: Hoàng Thạch Công (truyền)
+    category: binh-phap
+    chapter_count: 3
+    book_path: /books/tam-luoc
+
+  # —— Lịch sử ——
+  - id: shiji
+    title: Sử Ký
+    title_original: 史記
+    author: Tư Mã Thiên
+    category: lich-su
+    chapter_count: 130
+    book_path: /books/su-ky
+
+  - id: hanshu
+    title: Hán Thư
+    title_original: 漢書
+    author: Ban Cố
+    category: lich-su
+    chapter_count: 100
+    book_path: /books/han-thu
+
+  - id: houhanshu
+    title: Hậu Hán Thư
+    title_original: 後漢書
+    author: Phạm Diệp
+    category: lich-su
+    chapter_count: 120
+    book_path: /books/hau-han-thu
+
+  - id: sanguozhi
+    title: Tam Quốc Chí
+    title_original: 三國志
+    author: Trần Thọ
+    category: lich-su
+    chapter_count: 65
+    book_path: /books/tam-quoc-chi
+
+  - id: zizhitongjian
+    title: Tư Trị Thông Giám
+    title_original: 資治通鑑
+    author: Tư Mã Quang
+    category: lich-su
+    chapter_count: 294
+    book_path: /books/tu-tri-thong-giam
+
+  # —— Văn học ——
+  - id: chuci
+    title: Sở Từ
+    title_original: 楚辭
+    author: Khuất Nguyên / truyền Sở
+    category: van-hoc
+    chapter_count: 17
+    book_path: /books/so-tu
+
+  - id: shijing
+    title: Thi Kinh
+    title_original: 詩經
+    author: Truyền thống
+    category: van-hoc
+    chapter_count: 305
+    book_path: /books/thi-kinh
+
+  - id: guwenguanzhi
+    title: Cổ Văn Quan Chỉ
+    title_original: 古文觀止
+    author: Ngô Sở Tài / Ngô Điều Hầu (biên)
+    category: van-hoc
+    chapter_count: 222
+    book_path: /books/co-van-quan-chi
+
+  - id: wenxindiaolong
+    title: Văn Tâm Điêu Long
+    title_original: 文心雕龍
+    author: Lưu Hiệp
+    category: van-hoc
+    chapter_count: 50
+    book_path: /books/van-tam-dieu-long
+
+  # —— Y học ——
+  - id: huangdineijing
+    title: Hoàng Đế Nội Kinh
+    title_original: 黃帝內經
+    author: Truyền Hoàng Đế
+    category: y-hoc
+    chapter_count: 162
+    book_path: /books/hoang-de-noi-kinh
+    bronzemirror_source_zh: 《黄帝内经》
+
+  - id: shanghanlun
+    title: Thương Hàn Luận
+    title_original: 傷寒論
+    author: Trương Trọng Cảnh
+    category: y-hoc
+    chapter_count: 10
+    book_path: /books/thuong-han-luan
+
+  - id: jinguiyaolue
+    title: Kim Quỹ Yếu Lược
+    title_original: 金匱要略
+    author: Trương Trọng Cảnh
+    category: y-hoc
+    chapter_count: 25
+    book_path: /books/kim-quy-yeu-luoc
+
+# Already published separately (do not regenerate)
+existing:
+  - id: daodejing
+    title: Đạo Đức Kinh
+    title_original: 道德經
+    path: /Users/gengyang/daodejing
+    bronzemirror_source_zh: 《道德经》

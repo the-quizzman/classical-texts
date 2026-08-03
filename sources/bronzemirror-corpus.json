@@ -1,0 +1,845 @@
+{
+  "version": "0.1",
+  "updated": "2026-05-10",
+  "license": "Original translations CC BY-SA 4.0; original Chinese texts public domain.",
+  "passages": [
+    {
+      "id": "ddj-1",
+      "source_zh": "《道德经》",
+      "source_en": "Dao De Jing",
+      "section_zh": "第一章",
+      "section_en": "Chapter 1",
+      "original_zh": "道可道,非常道。名可名,非常名。",
+      "modern_zh": "可以言说的「道」,就不是恒常不变的道;可以命名的「名」,也不是恒常不变的名。",
+      "english": "The Way that can be spoken is not the eternal Way. The name that can be named is not the lasting name.",
+      "themes": [
+        "language",
+        "knowledge",
+        "the ineffable",
+        "philosophy",
+        "limits of words"
+      ],
+      "themes_zh": [
+        "语言",
+        "认知",
+        "不可言说",
+        "哲学",
+        "言之边界"
+      ],
+      "perspective_en": "An opening warning that the deepest realities operate prior to the categories language imposes — anticipating Wittgenstein by 2,400 years.",
+      "perspective_zh": "全书开篇即警告:最深的实在,运作于语言所强加的范畴之前。这是比维特根斯坦早 2400 年的语言哲学。",
+      "confidence": "medium",
+      "url": "articles/dao-can-be-spoken.html"
+    },
+    {
+      "id": "ddj-8",
+      "source_zh": "《道德经》",
+      "source_en": "Dao De Jing",
+      "section_zh": "第八章",
+      "section_en": "Chapter 8",
+      "original_zh": "上善若水。水善利万物而不争,处众人之所恶,故几于道。",
+      "modern_zh": "最高的善像水一样。水滋养万物却不与之相争,停留在众人都不愿待的低处,所以接近于道。",
+      "english": "The highest good is like water. Water benefits all things and contends with none; it dwells in places that people disdain — and so is close to the Way.",
+      "themes": [
+        "humility",
+        "non-contention",
+        "leadership",
+        "virtue",
+        "softness"
+      ],
+      "themes_zh": [
+        "谦下",
+        "不争",
+        "领导力",
+        "德",
+        "柔"
+      ],
+      "perspective_en": "The classical Daoist case for soft power: influence flows downward, not upward, and the strongest position is often the lowest.",
+      "perspective_zh": "道家「软实力」的经典论述——影响力是向下流的,不是向上推的;最强的位置往往是最低的位置。",
+      "confidence": "high"
+    },
+    {
+      "id": "ddj-22",
+      "source_zh": "《道德经》",
+      "source_en": "Dao De Jing",
+      "section_zh": "第二十二章",
+      "section_en": "Chapter 22",
+      "original_zh": "曲则全,枉则直,洼则盈,敝则新,少则得,多则惑。",
+      "modern_zh": "弯曲反能保全,委屈反能伸直,低洼反能充盈,陈旧反能更新,少取反能多得,贪多反生迷惑。",
+      "english": "Bent, then whole. Crooked, then straight. Hollow, then full. Worn, then new. Take little, gain much. Take much, become confused.",
+      "themes": [
+        "paradox",
+        "wisdom",
+        "less is more",
+        "yielding",
+        "strategy",
+        "fortune",
+        "luck"
+      ],
+      "themes_zh": [
+        "悖论",
+        "智慧",
+        "少即是多",
+        "退让",
+        "策略",
+        "运气",
+        "转运"
+      ],
+      "perspective_en": "Six paradoxes that, taken together, describe what the Daoist tradition calls 反 (fǎn) — the principle that things contain and become their opposites. The strategic application is direct: indirect routes often outperform direct ones.",
+      "perspective_zh": "六组悖论,共同描述道家所谓「反」的原理——事物包含并转化为它的对立面。直接应用即:迂回往往优于直接。",
+      "confidence": "high"
+    },
+    {
+      "id": "ddj-33",
+      "source_zh": "《道德经》",
+      "source_en": "Dao De Jing",
+      "section_zh": "第三十三章",
+      "section_en": "Chapter 33",
+      "original_zh": "知人者智,自知者明。胜人者有力,自胜者强。",
+      "modern_zh": "了解他人是智,认识自己是明。战胜他人是有力,战胜自己是真正的强。",
+      "english": "To know others is wisdom; to know oneself is clarity. To conquer others requires force; to conquer oneself is true strength.",
+      "themes": [
+        "self-knowledge",
+        "strength",
+        "wisdom",
+        "self-mastery",
+        "psychology"
+      ],
+      "themes_zh": [
+        "自知",
+        "力量",
+        "智慧",
+        "自我掌控",
+        "心理"
+      ],
+      "perspective_en": "The text distinguishes two kinds of knowing and two kinds of strength. Modern leadership literature has been re-discovering the same distinction for the last fifty years.",
+      "perspective_zh": "区分两种「知」与两种「强」。现代领导力研究反复重新发现的同一区分。",
+      "confidence": "high"
+    },
+    {
+      "id": "ddj-44",
+      "source_zh": "《道德经》",
+      "source_en": "Dao De Jing",
+      "section_zh": "第四十四章",
+      "section_en": "Chapter 44",
+      "original_zh": "知足不辱,知止不殆,可以长久。",
+      "modern_zh": "知道满足就不会受辱,知道适时而止就不会陷入危险,这样才可以长久。",
+      "english": "Know what is enough — and avoid disgrace. Know when to stop — and avoid harm. This is how one endures.",
+      "themes": [
+        "restraint",
+        "wealth",
+        "desire",
+        "longevity",
+        "wisdom",
+        "fortune",
+        "luck"
+      ],
+      "themes_zh": [
+        "克制",
+        "财富",
+        "欲望",
+        "长久",
+        "智慧",
+        "运气",
+        "福"
+      ],
+      "perspective_en": "The Daoist counterpoint to acquisitive ambition: not asceticism, but the pragmatic observation that those who don't know when to stop tend to lose what they had.",
+      "perspective_zh": "道家对贪取野心的反向论述——不是禁欲,而是务实的观察:不知止者,往往连本来有的也丢了。",
+      "confidence": "high"
+    },
+    {
+      "id": "ddj-46",
+      "source_zh": "《道德经》",
+      "source_en": "Dao De Jing",
+      "section_zh": "第四十六章",
+      "section_en": "Chapter 46",
+      "original_zh": "祸莫大于不知足,咎莫大于欲得。故知足之足,常足矣。",
+      "modern_zh": "最大的祸患是不知满足,最大的过失是贪得无厌。所以,知道满足的满足,才是真正长久的满足。",
+      "english": "No calamity is greater than not knowing what is enough; no fault greater than the wanting to acquire. The contentment of knowing-what-is-enough is the only lasting contentment.",
+      "themes": [
+        "wealth",
+        "desire",
+        "contentment",
+        "calamity",
+        "wisdom",
+        "fortune",
+        "misfortune",
+        "luck"
+      ],
+      "themes_zh": [
+        "财富",
+        "欲望",
+        "知足",
+        "祸患",
+        "智慧",
+        "运气",
+        "福祸",
+        "祸福"
+      ],
+      "perspective_en": "Reads alongside the Bazi tradition's view of wealth: where Bazi asks 'can you bear what you have?', the Daoist asks 'do you know when to stop?'. Two angles on the same problem.",
+      "perspective_zh": "与命理学的财富观互为补充:命理问「你承得起吗?」,道家问「你知止吗?」——同一个问题的两个角度。",
+      "confidence": "high"
+    },
+    {
+      "id": "ddj-63",
+      "source_zh": "《道德经》",
+      "source_en": "Dao De Jing",
+      "section_zh": "第六十三章",
+      "section_en": "Chapter 63",
+      "original_zh": "图难于其易,为大于其细。天下难事,必作于易;天下大事,必作于细。",
+      "modern_zh": "处理困难,要从它还容易时下手;成就大事,要从它还细微时着手。天下的难事,必从容易处开始;天下的大事,必从细微处发端。",
+      "english": "Plan for the difficult while it is still easy. Act on the great while it is still small. The hardest things in the world begin from the easiest; the greatest from the smallest.",
+      "themes": [
+        "strategy",
+        "action",
+        "planning",
+        "small beginnings",
+        "leadership"
+      ],
+      "themes_zh": [
+        "策略",
+        "行动",
+        "规划",
+        "由小而大",
+        "领导力"
+      ],
+      "perspective_en": "An ancient operations principle: intervene early, when the cost is low. Modern engineering, medicine, and management have rediscovered this in the language of leverage and prevention.",
+      "perspective_zh": "古老的「行动管理」原理:在成本最低时介入。现代工程、医疗、管理用「杠杆」「预防」的语言重新发现了它。",
+      "confidence": "high"
+    },
+    {
+      "id": "ddj-67",
+      "source_zh": "《道德经》",
+      "source_en": "Dao De Jing",
+      "section_zh": "第六十七章",
+      "section_en": "Chapter 67",
+      "original_zh": "我有三宝,持而保之:一曰慈,二曰俭,三曰不敢为天下先。",
+      "modern_zh": "我有三件珍宝,持守而保护它们:第一是慈爱,第二是节俭,第三是不敢做天下人之先。",
+      "english": "I have three treasures that I hold and keep: the first is compassion; the second is restraint; the third is not daring to put oneself ahead of others.",
+      "themes": [
+        "virtue",
+        "leadership",
+        "compassion",
+        "restraint",
+        "humility"
+      ],
+      "themes_zh": [
+        "德",
+        "领导力",
+        "慈悲",
+        "克制",
+        "谦下"
+      ],
+      "perspective_en": "Laozi's compressed ethical framework. Each 'treasure' inverts a competing virtue praised by the surrounding warring-states culture: not heroism, but compassion; not abundance, but restraint; not ambition, but yielding.",
+      "perspective_zh": "老子压缩的伦理框架。每一「宝」都反转了周围战国文化所赞美的对立美德:不是英雄气,而是慈悲;不是丰盛,而是节制;不是野心,而是退让。",
+      "confidence": "high"
+    },
+    {
+      "id": "ddj-76",
+      "source_zh": "《道德经》",
+      "source_en": "Dao De Jing",
+      "section_zh": "第七十六章",
+      "section_en": "Chapter 76",
+      "original_zh": "人之生也柔弱,其死也坚强。草木之生也柔脆,其死也枯槁。故坚强者死之徒,柔弱者生之徒。",
+      "modern_zh": "人活着的时候是柔弱的,死了就僵硬。草木活着的时候是柔脆的,死了就枯萎。所以,坚硬强势的属于死亡的一类,柔软灵活的属于生命的一类。",
+      "english": "The living human is soft and yielding; the dead is stiff and hard. Living plants are tender and pliable; dead plants are dry and brittle. Therefore: the rigid and forceful belong to death; the soft and yielding belong to life.",
+      "themes": [
+        "softness",
+        "life and death",
+        "adaptability",
+        "strength",
+        "paradox"
+      ],
+      "themes_zh": [
+        "柔软",
+        "生死",
+        "适应力",
+        "力量",
+        "悖论"
+      ],
+      "perspective_en": "An empirical observation given philosophical weight: living systems are flexible, dead systems are rigid. The political and personal application is left to the reader.",
+      "perspective_zh": "把一个经验观察上升为哲学:活的系统是柔的,死的系统是硬的。其政治与个人层面的应用,留给读者自己思考。",
+      "confidence": "high"
+    },
+    {
+      "id": "yi-qian",
+      "source_zh": "《周易》",
+      "source_en": "I Ching",
+      "section_zh": "乾卦 · 象传",
+      "section_en": "Hexagram Qian · Image Commentary",
+      "original_zh": "天行健,君子以自强不息。",
+      "modern_zh": "天的运行刚健不止,君子因此效法天道,自我奋发,永不停息。",
+      "english": "Heaven moves with vigor; the cultivated person, taking this as model, strengthens the self without ceasing.",
+      "themes": [
+        "self-cultivation",
+        "strength",
+        "perseverance",
+        "leadership",
+        "creativity"
+      ],
+      "themes_zh": [
+        "自修",
+        "强健",
+        "毅力",
+        "领导力",
+        "创造"
+      ],
+      "perspective_en": "One of the two foundational images of the I Ching's commentary tradition. Pair with the Kun line for the complete picture: heaven moves, earth bears.",
+      "perspective_zh": "易经传统中两大根本意象之一。与坤卦象传配读才完整:天行健,地势坤。",
+      "confidence": "high"
+    },
+    {
+      "id": "yi-kun",
+      "source_zh": "《周易》",
+      "source_en": "I Ching",
+      "section_zh": "坤卦 · 象传",
+      "section_en": "Hexagram Kun · Image Commentary",
+      "original_zh": "地势坤,君子以厚德载物。",
+      "modern_zh": "大地的形势顺承包容,君子因此效法大地,以厚重的德性承载万物。",
+      "english": "Earth is yielding in its form; the cultivated person, with thick virtue, carries all things.",
+      "themes": [
+        "receptivity",
+        "virtue",
+        "patience",
+        "capacity",
+        "leadership"
+      ],
+      "themes_zh": [
+        "承载",
+        "德",
+        "包容",
+        "容量",
+        "领导力"
+      ],
+      "perspective_en": "The complement to Qian. Where Qian asks for active strength, Kun asks for the capacity to receive and hold. Read together with the Bazi observation that capacity must precede acquisition.",
+      "perspective_zh": "乾卦的对应。乾要求主动强健,坤要求承载与包容的容量。与命理「容受能力须先于获取」的观察互参。",
+      "confidence": "high"
+    },
+    {
+      "id": "yi-ge",
+      "source_zh": "《周易》",
+      "source_en": "I Ching",
+      "section_zh": "革卦 · 彖传",
+      "section_en": "Hexagram Ge · Judgment",
+      "original_zh": "革,水火相息,二女同居,其志不相得,曰革。已日乃孚,革而信之。",
+      "modern_zh": "革卦,代表水与火相互消长、两个不同心志的力量共处之象。变革须等到时机成熟之日,人们才会真正信服。",
+      "english": "Ge — the hexagram of transformation. Water and fire that consume each other; two different forces forced to share one space. Change becomes credible only when the right day arrives.",
+      "themes": [
+        "change",
+        "transformation",
+        "timing",
+        "revolution",
+        "patience",
+        "fortune",
+        "change of fortune"
+      ],
+      "themes_zh": [
+        "变化",
+        "革新",
+        "时机",
+        "革命",
+        "耐心",
+        "运气",
+        "运势",
+        "变运"
+      ],
+      "perspective_en": "The classical text on transformation. The non-obvious teaching: even necessary change requires waiting for the moment when others are ready to believe in it.",
+      "perspective_zh": "经典的「变」之论。非显然的洞察:即便是必要的变革,也要等到他人能够相信的那一天。",
+      "confidence": "medium"
+    },
+    {
+      "id": "yi-jixing",
+      "source_zh": "《周易》",
+      "source_en": "I Ching",
+      "section_zh": "系辞下",
+      "section_en": "Great Commentary, Lower",
+      "original_zh": "穷则变,变则通,通则久。",
+      "modern_zh": "事物发展到尽头就会变化,变化之后就能通达,通达之后才能持久。",
+      "english": "When exhausted, change. With change comes flow. With flow comes endurance.",
+      "themes": [
+        "change",
+        "cycles",
+        "adaptation",
+        "endurance",
+        "strategy",
+        "fortune",
+        "cycles of fortune"
+      ],
+      "themes_zh": [
+        "变化",
+        "周期",
+        "适应",
+        "持久",
+        "策略",
+        "运气",
+        "运势"
+      ],
+      "perspective_en": "The compressed theory of structural transition that quietly underwrites Chinese strategic thinking from Sun Tzu to today's Shenzhen.",
+      "perspective_zh": "压缩的「结构转换」理论,从孙子兵法到今天的深圳,默默支撑着中国式策略思维。",
+      "confidence": "high"
+    },
+    {
+      "id": "ddh-cai",
+      "source_zh": "《滴天髓》",
+      "source_en": "The Dripping Heavenly Source",
+      "section_zh": "六亲论",
+      "section_en": "On Family and Resources",
+      "original_zh": "财者,养命之源也。然命之所恃以生者,非独财。若身弱财多,不胜其任,反为所累。",
+      "modern_zh": "财富是供养生命的资源。但生命所依靠的并非只有财富。如果身弱而财多,无法承担,反而成为累赘。",
+      "english": "Wealth is the source from which life is nourished — yet life depends on more than wealth alone. When the self is weak and wealth abundant, one cannot bear its weight, and what was meant to sustain becomes a burden.",
+      "themes": [
+        "wealth",
+        "capacity",
+        "balance",
+        "self",
+        "psychology",
+        "fortune",
+        "luck",
+        "fate"
+      ],
+      "themes_zh": [
+        "财富",
+        "容量",
+        "平衡",
+        "自我",
+        "心理",
+        "运气",
+        "命运",
+        "福"
+      ],
+      "perspective_en": "Classical Bazi treats wealth as a neutral resource, not a moral object. The deeper insight — that the bearer's strength must match what they carry — anticipates modern psychology's findings on lottery winners.",
+      "perspective_zh": "命理学把财富看作中性资源,而非道德对象。更深的洞察:承载者的力量必须与所承载之物相匹配——比现代心理学对彩票得主的研究早了几个世纪。",
+      "confidence": "high",
+      "url": "articles/wealth-source-of-life.html"
+    },
+    {
+      "id": "ddh-shen",
+      "source_zh": "《滴天髓》",
+      "source_en": "The Dripping Heavenly Source",
+      "section_zh": "通神论",
+      "section_en": "On the Divine Penetration",
+      "original_zh": "天道有寒暖,发育万物,人道得之,不可偏也。地道有刚柔,生成万物,人道得之,不可反也。",
+      "modern_zh": "天道有寒有暖,万物因此得以生长发育;人若效法,不可偏执一端。地道有刚有柔,万物因此得以生成,人若效法,不可违逆。",
+      "english": "The way of heaven knows cold and warmth; from this all things develop. The human way that follows it cannot tilt to one extreme. The way of earth knows hardness and softness; from this all things take form. The human way that follows it cannot run counter.",
+      "themes": [
+        "balance",
+        "duality",
+        "yin and yang",
+        "self-cultivation",
+        "moderation",
+        "fortune",
+        "destiny",
+        "fate"
+      ],
+      "themes_zh": [
+        "平衡",
+        "二元",
+        "阴阳",
+        "自修",
+        "中庸",
+        "运气",
+        "命运"
+      ],
+      "perspective_en": "The Bazi opening: human flourishing follows the same alternating pattern as cosmic flourishing. Insistence on a single extreme — only warmth, only strength — leads to system collapse.",
+      "perspective_zh": "命理学开篇:人的兴盛遵循与宇宙兴盛相同的交替模式。坚持单一极端——只要暖、只要强——必然导致系统崩溃。",
+      "confidence": "medium"
+    },
+    {
+      "id": "zpzq-cai",
+      "source_zh": "《子平真诠》",
+      "source_en": "The True Compendium of Ziping",
+      "section_zh": "论财",
+      "section_en": "On Wealth",
+      "original_zh": "财喜身旺。身旺则能任财,身弱则财反为病。",
+      "modern_zh": "财星喜欢日主强旺。日主强旺则能驾驭财富,日主衰弱则财富反而成为病害。",
+      "english": "Wealth favors a strong self. When the self is strong, it can carry wealth; when weak, wealth itself becomes a sickness.",
+      "themes": [
+        "wealth",
+        "capacity",
+        "balance",
+        "self",
+        "bazi",
+        "fortune",
+        "luck",
+        "fate"
+      ],
+      "themes_zh": [
+        "财富",
+        "容量",
+        "平衡",
+        "自我",
+        "命理",
+        "运气",
+        "命运",
+        "福"
+      ],
+      "perspective_en": "The terms 身 (self) and 财 (wealth) form a balance pair in classical Bazi. The text says, in modern language: resource flow without internal capacity is not a blessing.",
+      "perspective_zh": "「身」与「财」在传统命理中是一对平衡概念。用现代语言说:没有内在容量的资源流动并不是祝福。",
+      "confidence": "high"
+    },
+    {
+      "id": "zpzq-yong",
+      "source_zh": "《子平真诠》",
+      "source_en": "The True Compendium of Ziping",
+      "section_zh": "论用神",
+      "section_en": "On the Useful Spirit",
+      "original_zh": "八字用神,专求月令。以日干配月令地支,而生克异情,因有喜忌。",
+      "modern_zh": "八字中所谓「用神」,主要从月令(出生月份的地支)寻找。将日主与月令地支相配,根据生克关系的不同情形,产生喜与忌。",
+      "english": "The 'useful spirit' of a Bazi chart is sought primarily in the month pillar. Pairing the day master with the earthly branch of the month produces different patterns of generation and restraint — and from these arise the chart's preferences and aversions.",
+      "themes": [
+        "bazi",
+        "method",
+        "structure",
+        "self",
+        "fate"
+      ],
+      "themes_zh": [
+        "命理",
+        "方法",
+        "结构",
+        "自我",
+        "命运"
+      ],
+      "perspective_en": "The technical foundation of Ziping-school Bazi analysis. Modern personality models read this loosely: the central self is shaped most by the season — the structural moment — into which it was born.",
+      "perspective_zh": "子平派命理分析的技术基础。可以宽松地与现代人格理论对照:核心自我最受出生时节(结构性时刻)塑造。",
+      "confidence": "medium"
+    },
+    {
+      "id": "lunyu-15-24",
+      "source_zh": "《论语》",
+      "source_en": "Analects",
+      "section_zh": "卫灵公",
+      "section_en": "Wei Ling Gong",
+      "original_zh": "己所不欲,勿施于人。",
+      "modern_zh": "自己不愿意承受的,不要施加给别人。",
+      "english": "Do not impose on others what you yourself do not want.",
+      "themes": [
+        "ethics",
+        "reciprocity",
+        "relationships",
+        "virtue",
+        "golden rule"
+      ],
+      "themes_zh": [
+        "伦理",
+        "互惠",
+        "关系",
+        "德",
+        "黄金法则"
+      ],
+      "perspective_en": "The negative formulation of what the West calls the Golden Rule, predating Christian articulation by 500 years. Notable for its restraint: it asks what you should not do, not what you should do.",
+      "perspective_zh": "西方所谓「黄金法则」的否定式表达,比基督教的表述早 500 年。值得注意的是它的克制:问你不应做什么,而不是应该做什么。",
+      "confidence": "high"
+    },
+    {
+      "id": "lunyu-2-15",
+      "source_zh": "《论语》",
+      "source_en": "Analects",
+      "section_zh": "为政",
+      "section_en": "On Governance",
+      "original_zh": "学而不思则罔,思而不学则殆。",
+      "modern_zh": "学习而不思考就会迷茫,思考而不学习就会陷入危险。",
+      "english": "To learn without thinking is to be lost; to think without learning is to be in danger.",
+      "themes": [
+        "learning",
+        "thinking",
+        "wisdom",
+        "education",
+        "balance"
+      ],
+      "themes_zh": [
+        "学习",
+        "思考",
+        "智慧",
+        "教育",
+        "平衡"
+      ],
+      "perspective_en": "Confucius's compressed epistemology: input without processing produces confusion; processing without input produces unfounded conviction. The danger is greater on the latter side.",
+      "perspective_zh": "孔子压缩的认识论:有输入而无加工,产生迷茫;有加工而无输入,产生无根据的笃信。后者风险更大。",
+      "confidence": "high"
+    },
+    {
+      "id": "lunyu-1-1",
+      "source_zh": "《论语》",
+      "source_en": "Analects",
+      "section_zh": "学而",
+      "section_en": "On Learning",
+      "original_zh": "有朋自远方来,不亦乐乎。",
+      "modern_zh": "有志同道合的朋友从远方来到,不是很令人快乐吗?",
+      "english": "When friends come from afar, is this not a delight?",
+      "themes": [
+        "friendship",
+        "joy",
+        "relationships",
+        "community",
+        "learning"
+      ],
+      "themes_zh": [
+        "友谊",
+        "喜悦",
+        "关系",
+        "社群",
+        "学习"
+      ],
+      "perspective_en": "One of the most quoted lines in Chinese culture. The 朋 (friend) in Confucius's usage specifically meant fellow students of the Way — making this less about social pleasure and more about the rare joy of finding genuine intellectual company.",
+      "perspective_zh": "中国文化中最常被引用的句子之一。孔子用的「朋」特指志同道合的求道之友,所以这句话与其说是社交之乐,不如说是找到真正知己的稀罕喜悦。",
+      "confidence": "high"
+    },
+    {
+      "id": "zengwen-cai",
+      "source_zh": "《增广贤文》",
+      "source_en": "Expanded Worthy Sayings",
+      "section_zh": "伦理篇",
+      "section_en": "Ethics",
+      "original_zh": "君子爱财,取之有道。",
+      "modern_zh": "有修养的人也喜爱财富,但获取财富必须依正当的途径。",
+      "english": "The cultivated person loves wealth — but only by means that are right.",
+      "themes": [
+        "wealth",
+        "ethics",
+        "virtue",
+        "means and ends"
+      ],
+      "themes_zh": [
+        "财富",
+        "伦理",
+        "德",
+        "方法与目的"
+      ],
+      "perspective_en": "Rejects the false dichotomy between asceticism and greed: wealth is not the problem; the means of acquiring it is. Useful counterweight to the metaphysical readings of wealth from Bazi.",
+      "perspective_zh": "拒绝「禁欲 vs 贪婪」的假对立:财富本身不是问题,获取方式才是。命理学形而上学财富论之外的有益补充。",
+      "confidence": "high"
+    },
+    {
+      "id": "zengwen-shi",
+      "source_zh": "《增广贤文》",
+      "source_en": "Expanded Worthy Sayings",
+      "section_zh": "处世篇",
+      "section_en": "On Conduct",
+      "original_zh": "知人知面不知心。",
+      "modern_zh": "了解一个人的外表容易,真正了解他的内心却难。",
+      "english": "You may know a person's face but not their heart.",
+      "themes": [
+        "relationships",
+        "trust",
+        "human nature",
+        "wisdom"
+      ],
+      "themes_zh": [
+        "关系",
+        "信任",
+        "人性",
+        "智慧"
+      ],
+      "perspective_en": "A practical aphorism on the limits of social inference. The line is folk wisdom rather than philosophy, but its persistence in Chinese popular culture suggests it captures a recurring human experience.",
+      "perspective_zh": "关于社会推断局限的实用格言。这是民间智慧而非哲学,但它在中国大众文化中的持久存在,说明它捕捉到了一种反复出现的人类经验。",
+      "confidence": "high"
+    },
+    {
+      "id": "neijing-1",
+      "source_zh": "《黄帝内经》",
+      "source_en": "Yellow Emperor's Inner Canon",
+      "section_zh": "上古天真论",
+      "section_en": "Discourse on the Primordial",
+      "original_zh": "上古之人,其知道者,法于阴阳,和于术数,食饮有节,起居有常,不妄作劳,故能形与神俱。",
+      "modern_zh": "上古的人,那些懂得养生之道的,效法阴阳的规律,顺应自然的节律,饮食有节制,作息有规律,不过度操劳,所以形体与精神能够协调一致。",
+      "english": "In ancient times, those who understood the Way modeled themselves on yin and yang, harmonized with the cycles of nature, ate and drank with restraint, kept regular routines, and did not exhaust themselves recklessly — and so their body and spirit remained in concert.",
+      "themes": [
+        "health",
+        "longevity",
+        "balance",
+        "lifestyle",
+        "mind-body"
+      ],
+      "themes_zh": [
+        "健康",
+        "长寿",
+        "平衡",
+        "生活方式",
+        "身心"
+      ],
+      "perspective_en": "The opening of classical Chinese medicine. The framework — circadian rhythm, dietary restraint, balanced exertion — is what modern lifestyle medicine has been re-deriving for fifty years.",
+      "perspective_zh": "中医经典的开篇。其框架——昼夜节律、饮食克制、劳逸平衡——正是现代生活方式医学过去 50 年重新推导出的内容。",
+      "confidence": "high"
+    },
+    {
+      "id": "shen-xuan-1",
+      "source_zh": "《沈氏玄空学》",
+      "source_en": "Shen's Xuan Kong Studies",
+      "section_zh": "总论",
+      "section_en": "General Introduction",
+      "original_zh": "玄空之学,以星辰为体,以方位为用,以时运为机。一运一星,因时而异。",
+      "modern_zh": "玄空学以星辰为体系基础,以方位为应用对象,以时间运势为变化契机。每一运对应不同的飞星,因时而变。",
+      "english": "The discipline of Xuan Kong takes the stars as its foundation, the cardinal directions as its field of application, and the cycles of time as its mechanism. Each cycle has its star; the configuration changes with the era.",
+      "themes": [
+        "feng shui",
+        "space",
+        "time",
+        "cycles",
+        "method"
+      ],
+      "themes_zh": [
+        "风水",
+        "空间",
+        "时间",
+        "周期",
+        "方法"
+      ],
+      "perspective_en": "The structural premise of Xuan Kong feng shui: spatial arrangement is read against temporal cycles. The same room is read differently in different eras — which makes feng shui less of a fixed prescription and more of a contextual reading.",
+      "perspective_zh": "玄空风水的结构前提:空间布局须对照时间周期来解读。同一个房间在不同的运中读法不同——这使风水不再是固定处方,而是情境化的阅读。",
+      "confidence": "medium"
+    },
+    {
+      "id": "zhuangzi-pao",
+      "source_zh": "《庄子》",
+      "source_en": "Zhuangzi",
+      "section_zh": "养生主 · 庖丁解牛",
+      "section_en": "Cook Ding's Ox",
+      "original_zh": "臣以神遇而不以目视,官知止而神欲行。依乎天理,批大郤,导大窾。",
+      "modern_zh": "我用心神去感受,而不用眼睛去观看,感官的活动停止了,而心神却在自然运行。依顺自然的纹理,从大的缝隙处下刀,从大的空隙处引刀。",
+      "english": "I meet it with my spirit, not with my eyes. The senses fall still, and the spirit moves where it will. I follow the natural grain — entering through the large openings, guiding the blade through the hollow spaces.",
+      "themes": [
+        "mastery",
+        "flow",
+        "skill",
+        "non-action",
+        "embodied knowledge"
+      ],
+      "themes_zh": [
+        "精通",
+        "心流",
+        "技艺",
+        "无为",
+        "身体知识"
+      ],
+      "perspective_en": "Zhuangzi's most famous parable on mastery. Modern psychology calls it 'flow'; Zhuangzi calls it spirit-following. Both name the same observation: at the highest level of skill, deliberate cognition stops being useful.",
+      "perspective_zh": "庄子最著名的「精通」寓言。现代心理学叫它「心流」,庄子叫它「以神遇」。两者命名同一观察:在技艺的最高层次,刻意的认知不再有用。",
+      "confidence": "high"
+    },
+    {
+      "id": "mengzi-2-2",
+      "source_zh": "《孟子》",
+      "source_en": "Mencius",
+      "section_zh": "公孙丑上",
+      "section_en": "Gongsun Chou, First",
+      "original_zh": "故天将降大任于斯人也,必先苦其心志,劳其筋骨,饿其体肤,空乏其身,行拂乱其所为。",
+      "modern_zh": "所以,上天将要把重大的任务降临到某人身上时,必定先要使他的心志困苦,使他的筋骨劳累,使他的身体饥饿,使他穷困缺乏,使他的所作所为受到扰乱。",
+      "english": "When Heaven is about to confer a great responsibility on a person, it first embitters their mind with adversity, exhausts their body with labor, starves their flesh, leaves them in want — and disrupts what they are trying to do.",
+      "themes": [
+        "adversity",
+        "growth",
+        "leadership",
+        "fate",
+        "preparation",
+        "fortune",
+        "destiny",
+        "luck"
+      ],
+      "themes_zh": [
+        "逆境",
+        "成长",
+        "领导力",
+        "命运",
+        "准备",
+        "运气",
+        "运势"
+      ],
+      "perspective_en": "Mencius reframes hardship as preparation rather than punishment. The line has been quoted in every Chinese commencement speech of the last century — sometimes as comfort, sometimes as warning.",
+      "perspective_zh": "孟子把困难重新定义为「准备」而不是「惩罚」。这句话在过去一个世纪的每一场中国毕业典礼上都被引用过——有时作为安慰,有时作为警告。",
+      "confidence": "high"
+    },
+    {
+      "id": "sunzi-mou",
+      "source_zh": "《孙子兵法》",
+      "source_en": "Sun Tzu's Art of War",
+      "section_zh": "谋攻篇",
+      "section_en": "Strategic Attack",
+      "original_zh": "知己知彼,百战不殆;不知彼而知己,一胜一负;不知彼,不知己,每战必殆。",
+      "modern_zh": "了解对手并了解自己,百战都不会陷入危险;不了解对手而了解自己,胜负各半;既不了解对手也不了解自己,每一战都会陷入危险。",
+      "english": "Know yourself and know your opponent — and in a hundred battles you will not be endangered. Know yourself but not your opponent — and the outcome will be even. Know neither — and every battle will end in danger.",
+      "themes": [
+        "strategy",
+        "self-knowledge",
+        "competition",
+        "warfare",
+        "preparation"
+      ],
+      "themes_zh": [
+        "策略",
+        "自知",
+        "竞争",
+        "战争",
+        "准备"
+      ],
+      "perspective_en": "Sun Tzu's epistemology of competition. The structure is more general than military: it applies to negotiation, to markets, to relationships. The hardest term — usually — is self-knowledge.",
+      "perspective_zh": "孙子的「竞争认识论」。其结构比军事更普遍:适用于谈判、市场、关系。最难的一项,通常是自知。",
+      "confidence": "high"
+    },
+    {
+      "id": "ddj-9",
+      "source_zh": "《道德经》",
+      "source_en": "Dao De Jing",
+      "section_zh": "第九章",
+      "section_en": "Chapter 9",
+      "original_zh": "持而盈之,不如其已;揣而锐之,不可长保。金玉满堂,莫之能守;富贵而骄,自遗其咎。",
+      "modern_zh": "执持而使之满盈,不如及早停止;锤打而使之锐利,不能长久保持。金玉堆满厅堂,没有人能够守住;富贵而骄横,是自找祸患。",
+      "english": "To hold and fill to overflowing — better to stop in time. To hammer and sharpen to an edge — the edge cannot last. A hall full of gold and jade — none can keep it. Wealth and rank with arrogance — calamity calls itself in.",
+      "themes": [
+        "wealth",
+        "restraint",
+        "humility",
+        "longevity",
+        "danger",
+        "fortune",
+        "luck",
+        "good fortune"
+      ],
+      "themes_zh": [
+        "财富",
+        "克制",
+        "谦下",
+        "长久",
+        "危险",
+        "运气",
+        "福",
+        "福祸"
+      ],
+      "perspective_en": "Four images, all making the same structural point: peaks invite descents. The Daoist response is not asceticism but the deliberate avoidance of extremes — what the tradition calls 中 (the middle).",
+      "perspective_zh": "四个意象,都说同一个结构性论点:高峰必然引来下坡。道家的回应不是禁欲,而是有意识地避开极端——传统所谓「中」。",
+      "confidence": "high"
+    },
+    {
+      "id": "yi-jian",
+      "source_zh": "《周易》",
+      "source_en": "I Ching",
+      "section_zh": "谦卦 · 彖传",
+      "section_en": "Hexagram Qian (Modesty) · Judgment",
+      "original_zh": "天道亏盈而益谦,地道变盈而流谦,鬼神害盈而福谦,人道恶盈而好谦。",
+      "modern_zh": "天的法则,亏减盈满而增益谦下;地的法则,改变盈满而流向谦下;鬼神的法则,损害盈满而赐福谦下;人的法则,厌恶盈满而喜好谦下。",
+      "english": "The way of heaven diminishes the full and replenishes the modest. The way of earth changes the full and lets it flow into the modest. Spirits harm the full and bless the modest. The human way despises the full and favors the modest.",
+      "themes": [
+        "humility",
+        "balance",
+        "fullness",
+        "virtue",
+        "cycles",
+        "fortune",
+        "luck",
+        "good fortune"
+      ],
+      "themes_zh": [
+        "谦下",
+        "平衡",
+        "盈满",
+        "德",
+        "周期",
+        "运气",
+        "福",
+        "盛衰"
+      ],
+      "perspective_en": "The classical case for modesty: not as ethical preference but as structural law. Across four domains — cosmos, earth, spirits, humans — the same pattern repeats. The full is taken from; the modest is given to.",
+      "perspective_zh": "谦的经典论述:不是伦理偏好,而是结构性规律。横跨四个领域——天道、地道、鬼神、人道——同一模式重复:盈满者被取,谦下者被予。",
+      "confidence": "high"
+    }
+  ]
+}
