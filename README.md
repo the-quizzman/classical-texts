@@ -86,3 +86,51 @@ Local path: `/Users/gengyang/classical-texts/books/<id>/`
 python3 scripts/bootstrap.py          # scaffold local
 python3 scripts/push_github.py        # create+push GitHub
 ```
+
+## Import status
+
+Hán văn (Original Text) imported from PD corpora (daizhige / nk2028 / incrediblesound).
+
+| Book | Chapters |
+| --- | ---: |
+| [`chuci`](https://github.com/the-quizzman/chuci) | 64 |
+| [`chunqiu`](https://github.com/the-quizzman/chunqiu) | 12 |
+| [`daxue`](https://github.com/the-quizzman/daxue) | 1 |
+| [`erya`](https://github.com/the-quizzman/erya) | 19 |
+| [`gongyang`](https://github.com/the-quizzman/gongyang) | 12 |
+| [`guanzi`](https://github.com/the-quizzman/guanzi) | 76 |
+| [`guliang`](https://github.com/the-quizzman/guliang) | 12 |
+| [`guwenguanzhi`](https://github.com/the-quizzman/guwenguanzhi) | 24 |
+| [`hanfeizi`](https://github.com/the-quizzman/hanfeizi) | 55 |
+| [`hanshu`](https://github.com/the-quizzman/hanshu) | 118 |
+| [`houhanshu`](https://github.com/the-quizzman/houhanshu) | 133 |
+| [`huangdineijing`](https://github.com/the-quizzman/huangdineijing) | 110 |
+| [`jinguiyaolue`](https://github.com/the-quizzman/jinguiyaolue) | 23 |
+| [`liezi`](https://github.com/the-quizzman/liezi) | 8 |
+| [`liji`](https://github.com/the-quizzman/liji) | 47 |
+| [`liutao`](https://github.com/the-quizzman/liutao) | 59 |
+| [`lunyu`](https://github.com/the-quizzman/lunyu) | 20 |
+| [`mengzi`](https://github.com/the-quizzman/mengzi) | 14 |
+| [`mozi`](https://github.com/the-quizzman/mozi) | 53 |
+| [`sanguozhi`](https://github.com/the-quizzman/sanguozhi) | 3 |
+| [`sanlue`](https://github.com/the-quizzman/sanlue) | 3 |
+| [`shanghanlun`](https://github.com/the-quizzman/shanghanlun) | 10 |
+| [`shangjunshu`](https://github.com/the-quizzman/shangjunshu) | 24 |
+| [`shangshu`](https://github.com/the-quizzman/shangshu) | 55 |
+| [`shiji`](https://github.com/the-quizzman/shiji) | 114 |
+| [`shijing`](https://github.com/the-quizzman/shijing) | 306 |
+| [`sunzi`](https://github.com/the-quizzman/sunzi) | 13 |
+| [`wenxindiaolong`](https://github.com/the-quizzman/wenxindiaolong) | 50 |
+| [`wenzi`](https://github.com/the-quizzman/wenzi) | 11 |
+| [`wuzi`](https://github.com/the-quizzman/wuzi) | 6 |
+| [`xiaojing`](https://github.com/the-quizzman/xiaojing) | 18 |
+| [`yijing`](https://github.com/the-quizzman/yijing) | 63 |
+| [`yili`](https://github.com/the-quizzman/yili) | 17 |
+| [`yinfujing`](https://github.com/the-quizzman/yinfujing) | 3 |
+| [`zhongyong`](https://github.com/the-quizzman/zhongyong) | 1 |
+| [`zhouli`](https://github.com/the-quizzman/zhouli) | 6 |
+| [`zhuangzi`](https://github.com/the-quizzman/zhuangzi) | 33 |
+| [`zizhitongjian`](https://github.com/the-quizzman/zizhitongjian) | 294 |
+
+Total: **1890** chapter files with Original Text filled.
+
